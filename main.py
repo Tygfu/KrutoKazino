@@ -332,7 +332,7 @@ async def bank_cmd(message: Message):
 # --- ПРОМОКОДИ ---
 @dp.message(F.text.lower().startswith("создать промо"))
 async def create_promo_cmd(message: Message):
-    if message.from_user.username != ADMIN_USERNAME:
+    if message.from_user.id != 6663798088:
         await message.answer("❌ Эта команда доступна только владельцу бота (@nemcheni)!")
         return
 
