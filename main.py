@@ -7,7 +7,7 @@ from aiogram.filters import CommandStart, CommandObject
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 BOT_TOKEN = "8305292946:AAFT5CseWNrriB9tKCK9mNl_BpZR1JwtlvU"
-ADMIN_USERNAME = "nemcheni"  # Власник промокодів
+ADMIN_USERNAME = 6663798088  # Власник промокодів
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
